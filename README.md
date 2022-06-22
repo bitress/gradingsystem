@@ -1,0 +1,2 @@
+# gradingsystem
+Grading System (Switch-Case with loops) was developed using Java programming language. This grading system shows the basic handling of strings, loops, and arrays. It allows user to add the student information, at the same time the user can add the grade of that student, and it will calculate the final average and it remarks, where is it passed or failed.  We used string data type for the subjects of the student and its grade remark, integer data type for the input grade and average. 
