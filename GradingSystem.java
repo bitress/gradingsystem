@@ -37,16 +37,76 @@ public class GradingSystem {
                 average[student] = gradeSum[student] / subjects.length; // Calculate student's average
 
                 switch (average[student]){
-                    case 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100:
+                    case 90: 
+                    case 91:
+                    case 92:
+                    case 93:
+                    case 94:
+                    case 95:
+                    case 96:
+                    case 97:
+                    case 98:
+                    case 99:
+                    case 100:
                         remarks[student] = "Excellent";
                         break;
-                    case 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89:
+                    
+                    case 70:
+                    case 71:
+                    case 72:
+                    case 73:
+                    case 74:
+                    case 75:
+                    case 76:
+                    case 77:
+                    case 78:
+                    case 79:
+                    case 80:
+                    case 81:
+                    case 82:
+                    case 83:
+                    case 84:
+                    case 85:
+                    case 86:
+                    case 87:
+                    case 89:
                         remarks[student] = "Very Good";
                         break;
-                    case 60, 61, 62, 63, 64, 65, 66, 67, 68, 69:
+                        
+                    case 60:
+                    case 61:
+                    case 62:
+                    case 63:
+                    case 64:
+                    case 65:
+                    case 66:
+                    case 67:
+                    case 68:
+                    case 69:
+                    
+                 
                         remarks[student] = "Fair";
                         break;
-                    case 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59:
+                    case 40:
+                    case 41:
+                    case 42:
+                    case 43:
+                    case 44:
+                    case 45:
+                    case 46:
+                    case 47:
+                    case 48:
+                    case 49:
+                    case 50:
+                    case 51:
+                    case 52:
+                    case 53:
+                    case 54:
+                    case 55:
+                    case 56:
+                    case 57:
+                    case 58:
+                    case 59:
                         remarks[student] = "Pass";
                         break;
                     default:
